@@ -75,4 +75,6 @@ In this step I will be installing and configuring my read only domain controller
 6.  Click ok and apply, and the user is now added to the allowed RODC password replication group
     - ![Added user1 to the RODC password replication group](img/check_replication_group_2.png "Added user1 to the RODC password replication group")
     - Remember to change the domain controller back to the RODC so it becomes a read only domain controller again once you are done
-7. The RODC is now fully set up and ready to go
+
+
+**The RODC is now fully set up and ready to go**
