@@ -5,7 +5,12 @@
 
 ### This is a github repo that contains the blog of my process of learning to set up my Windows Server forest in my computer
 
-*Processes of setting up:*
+## Troubleshooting
+##### These will document my struggles in the project and what I did to fix the issue as well as what I learned from troubleshooting
+
+**[Troubleshooting](troubleshooting/README.md)**
+
+## Processes of setting up:
 
 1. [Installing VMWare Workstation and setting up Windows Server 2019](step_1/README.md "My initial configuration")
     - Installing and configuring VMWare Workstation
@@ -24,7 +29,7 @@
     - Add the active directory roles and services and promote it to be the domain controller of the domain
     - Set up DNS services
 
-4. [Set up and deploy Read Only Domain Controller](step_4/README.md "My Read Only Domain Controlle configuration")
+4. [Set up and deploy Read Only Domain Controller](step_4/README.md "My Read Only Domain Controller configuration")
     - Create a new domain controller by creating a installing a new VM
     - Set up the network static IP address for the VM and name it WIN2K19-RODC01
     - Add the active directory roles and services and set it up so that the domain controller can only have read only permissons in the domain
@@ -98,5 +103,3 @@
     - Configure Hyper-V replication and failover settings with the first Hyper-V server(WIN2K19-HPV01)
     - Test the sync and failover to see if the VM in HPV01 will copy or fail over to HPV02
 
-**Troubleshooting**
-##### These will document my struggles in the project and what I did to fix the issue as well as what I learned from troubleshooting
