@@ -55,7 +55,7 @@
     - Configure the DHCP settings and create address pools
     - Create reserved addresses for future uses
 
-9. [Set up and configure iSCSI target server](step_9/README.md "iSCSI configuration")
+9. [Set up and configure iSCSI target server and iSCSI initator server](step_9/README.md "iSCSI configuration")
     - Add a iSCSI configuration to the file server
     - Set up the virtual disk for the iSCSI shares
     - Configure the iSCSI target and initiator server
