@@ -2,6 +2,8 @@
 
 In this step I will be installing and configuring a file server to my domain(WIN2K19-FS01)
 
+IP address will be 192.168.1.108
+
 ## *Complete basic installation and configuration on the new VMs*
 
 1.	Installed and set up a new Windows server and a Windows 10 client
