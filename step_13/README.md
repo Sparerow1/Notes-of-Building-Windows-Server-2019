@@ -71,13 +71,13 @@ We will be using a client virtual machine that is in our domain to test if users
     - User1 should have read and write permissions, so the upload should be allowed
     - ![Testing read nad write permissions](img/filezilla2.png "Testing read nad write permissions of User1")
 3. FTP server was able to receive the file
-    - ![WIN2K19-FTP01 was able to receive the file](img/filezilla3.png "WIN2K19-FTP01 was able to receive the file in the FTO directory that I set up(C:\FTP-Root)")
+    - ![WIN2K19-FTP01 was able to receive the file](img/received.png "WIN2K19-FTP01 was able to receive the file in the FTO directory that I set up(C:\FTP-Root)")
+    - Changed the file a little bit and then have the client2 machine download the file again
     - WIN2K19-FTP01 was able to receive the file in the FTO directory that I set up(C:\FTP-Root)
-4. Changed the file a little bit and then have the client2 machine download the file again
-5. The client has successfully received the updated version of the file
-    - ![User1 was able to receive file](img/received.png "User1 was able to receive file")
+4. The client has successfully received the updated version of the file
+    - ![User1 was able to receive file](img/filezilla3.png "User1 was able to receive file")
     - User1 was able to receive the updated file via FTP and download it to the client computer
-6. FTP server is able to execute connection and the right permission for users
+5. FTP server is able to execute connection and the right permission for users
 
 
 
