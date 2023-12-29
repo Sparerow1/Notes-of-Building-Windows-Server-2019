@@ -1,4 +1,4 @@
-# Installing and Configuring Windos Deployment Server
+# Installing and Configuring Windows Deployment Server
 
 In this step I will beinstalling and configuting Windows Deployment Server to a new VM(WIN2K19-WDS01) in the domain
 

@@ -1,4 +1,4 @@
-# Configuring my first server and installing the AD domain
+# Configuring my first server, installing the AD domain on it, and making it the primary domain controller of my domain
 
 In this step I will be configuring the server that I installed earlier and install active directory service on it
 
@@ -146,3 +146,6 @@ Create, deploy, and test a group policy that will allow for inbound and outbound
     - The policy is updating and it shows a successful update
     - ![Running gpresult /r](img/gpresult.png "Running gpresult /r")
     - It looks like my new Firewall policy has been updated successfully
+
+
+## The primary domain controller is now set up and ready to go

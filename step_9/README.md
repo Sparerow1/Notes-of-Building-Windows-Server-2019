@@ -27,7 +27,7 @@ Install the iSCSI roles, then create and configure the iSCSI virutal disk
     -	The iSCSI target server option will be the one that we need to install
         -	It will be found under server roles, then navigate to file and storage services, and under file and storage services, you will find file and iSCSI services. 
         -	Under file and iSCSI services, you will find the iSCSI target server role as well as iSCSI initator server options
-        - Select both because if not the configuration will fail
+        - Select iSCSI target server
 
 2.	Leave the rest as defaults and install the role
 
@@ -53,7 +53,7 @@ Install the iSCSI roles, then create and configure the iSCSI virutal disk
         1.	**This is an initiator server that I created and added to the domain just for the purpose of making it an iSCSI initiator**
         2. The name of it is WIN2K19-SRV01
             - I did the same iSCSI role-based installation for this server as the file server
-            - Installed both the iSCSI initator role and iSCSI target role on this one as well
+            - Installed the iSCSI initator role 
 
 10. Select Add and use IP address to find the initiator server in the add initiator window
     - ![Add initator using IP address](img/initiator.png "Add initator using IP address")
